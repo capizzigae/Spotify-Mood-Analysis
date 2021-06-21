@@ -1,4 +1,7 @@
 # Spotify-Mood-Analysis
+Before Running:  
+Add a setup directory in spark and put "spark-3.1.1-bin-hadoop2.7.".  
+Download it from there: https://spark.apache.org/releases/spark-release-3-1-1.html
 
 To run:  
 Go to bin directory from the bash and execute in this order:  
