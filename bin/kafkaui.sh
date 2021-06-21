@@ -1,0 +1,2 @@
+docker pull provectuslabs/kafka-ui:latest 
+docker run --name kafka-ui -e KAFKA_CLUSTERS_0_NAME=my_cluster -e KAFKA_CLUSTERS_0_ZOOKEEPER=172.18.0.22:2181 -e KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=172.18.0.23r:9092 -p 8080:8080 --network=spotifyMood provectuslabs/kafka-ui:latest
